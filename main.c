@@ -74,7 +74,8 @@ int main()
 		for(counter = 0; counter <= SWITCH_PRESS_TIMEOUT; counter++)
 		{
 			/* Delay for 1ms */
-			CyDelay(1);
+			//CyDelay(1);
+			CyDelay(2);
 				
 			/* If the switch is released before specified time, do not enter the 
 			 * bootloader */
